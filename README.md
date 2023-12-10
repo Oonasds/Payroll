@@ -31,8 +31,14 @@ The **Payroll System** is a simple application that allows users to manage emplo
    - Execute `python payroll.py` in the terminal.
 
 4. **Usage:**
-   - Add employees, log worked hours, and manage payroll using the provided buttons.
+   - Add employees and their hourly rate.
+     ![add an employee](https://github.com/Oonasds/Payroll/assets/123359882/44358dd3-c5ed-4dc9-93a7-38faa0dc11d6)
+   - Submit working hours for the desired employee by choosing the correct employee after you have added them to the system.
+     ![Submitting working hours](https://github.com/Oonasds/Payroll/assets/123359882/cee776e3-97f1-48f1-9abb-204a1f96fbba)
    - Use the "Generate QR Code" button to create QR codes for employee salary information.
+   - You can edit a desired employees hourly rate through the 'Edit employee' -button.
+     ![Edit employee](https://github.com/Oonasds/Payroll/assets/123359882/f35b0ca1-003c-4695-96c1-dc0096f0698e)
+   - And you can also delete an employee or clear their already submitted working hours.
 
 ## Dependencies
 
