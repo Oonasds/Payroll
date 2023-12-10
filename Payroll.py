@@ -161,7 +161,7 @@ class PayrollWindow:
 
         self.refresh_payroll()
 
-        # Aseta sarakkeiden painot niin, että tekstikenttä ja napit venyvät ikkunan koon mukaan
+    
         root.columnconfigure(0, weight=1)
         root.columnconfigure(1, weight=1)
         root.columnconfigure(2, weight=1)
@@ -172,7 +172,7 @@ class PayrollWindow:
         root.rowconfigure(2, weight=1)
         root.rowconfigure(3, weight=1)
 
-        # Aseta sarakkeiden painot niin, että tekstikenttä venyy ikkunan koon mukaan
+        
         for i in range(7):
             root.columnconfigure(i, weight=1)
         root.rowconfigure(2, weight=1)
@@ -182,7 +182,7 @@ class PayrollWindow:
 
     def refresh_payroll(self):
         payroll_info = self.payroll_system.calculate_payroll()
-        self.payroll_text.delete("1.0", tk.END)  # Tyhjennä tekstikenttä
+        self.payroll_text.delete("1.0", tk.END)  
         self.payroll_text.insert(tk.END, payroll_info)
 
     def show_entry_window(self):
