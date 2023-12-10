@@ -24,11 +24,10 @@ The **Payroll System** is a simple application that allows users to manage emplo
    - Ensure you have Python installed.
 
 2. **Installation:**
-   - Clone the repository: `git clone [repository_url]`
+   - Clone this repostory.
    - Navigate to the project directory.
 
 3. **Run the Application:**
-   - Execute `python payroll.py` in the terminal.
 
 4. **Usage:**
    - Add employees and their hourly rate.
