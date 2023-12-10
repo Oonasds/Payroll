@@ -32,6 +32,7 @@ The **Payroll System** is a simple application that allows users to manage emplo
 
 4. **Usage:**
    - Add employees and their hourly rate.
+     
      ![add an employee](https://github.com/Oonasds/Payroll/assets/123359882/44358dd3-c5ed-4dc9-93a7-38faa0dc11d6)
    - Submit working hours for the desired employee by choosing the correct employee after you have added them to the system.
      ![Submitting working hours](https://github.com/Oonasds/Payroll/assets/123359882/cee776e3-97f1-48f1-9abb-204a1f96fbba)
